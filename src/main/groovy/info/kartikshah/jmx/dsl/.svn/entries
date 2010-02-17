@@ -28,15 +28,7 @@ svn:special svn:externals svn:needs-lock
 
 ChartScript.groovy
 file
-
-
-
-
-2010-02-15T02:41:31.000000Z
-517339460e4ff47971f36a3e6de7c667
-2010-02-14T22:12:10.218048Z
-6
-shahkartikr@gmail.com
+10
 
 
 
@@ -56,9 +48,7 @@ shahkartikr@gmail.com
 
 
 
-
-
-320
+deleted
 
 JmxSampleScript.groovy
 file

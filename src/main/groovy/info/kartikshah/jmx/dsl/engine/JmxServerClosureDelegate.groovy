@@ -25,8 +25,6 @@ class JmxServerClosureDelegate {
     def query = new ObjectName(objectName)
     String[] allNames = server.queryNames(query, null)
 
-    //println allNames
-
     cl.delegate = new JmxQueryClosureDelegate(allNames, server)
     cl.resolveStrategy = Closure.DELEGATE_FIRST
     cl()
